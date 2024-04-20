@@ -1,9 +1,9 @@
 
 //  Author: PHNO - Tecnólogo | Pós-Graduado
 //  Data Release: 07/11/2023
-//  Versao Codigo: 2.0.1v
+//  Versão Código: 2.0.1v
 //  Replit: @PHNO, @PHREPLIT
-//  Email: phreplit@gmail.com
+//  E-mail: phreplit@gmail.com
 
 // Algoritmo: Metragem e Calculo para Revestimentos de Ceramica, algoritmo desenvolvido em c, desenvolvido para profissionais da engenharia civil e areas correlatas.
 
@@ -12,7 +12,7 @@
 #include <math.h> 
 
 int menu(); 
-void op1(); 
+void op1(); // cabecalho
 void op2(); 
 void op3();
 void op4();
@@ -32,21 +32,20 @@ printf("\n1. Calcular Metro Quadrado de um Comodo"); // ex: sala
 printf("\n2. Calcular Quantidade de Ceramicas por M²");
 printf("\n3. Calcular Quantidade de Caixas de C. por M²");
 printf("\n4. Sair\n");
-
 printf("\n[8] Info\n");
-
 printf("\n[9] Sobre \n");
 
 printf("\nDigite sua escolha: ");
 scanf("%d", &op);
 
-while ((c = getchar()) != '\n' && c != EOF) {} // limpar o buffer do teclado.   
+while ((c = getchar()) != '\n' && c != EOF) {
+} // limpar o buffer do teclado.   
 return op; 
 }
 
 int main() { // Funcao principal
 
-int op, c;
+int op = 0, c;
 
 while (op != -1) { 
 op = menu(); 
@@ -81,7 +80,7 @@ printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 } 
 } 
 return 0; 
@@ -101,12 +100,12 @@ resultado = v1 * v2;
 printf("\nO comodo tem %d metros quadrados.\n", resultado);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -125,12 +124,12 @@ resultado = (v1 * v2);
 printf("\nPara alicerçar %d M² de um comodo sera necessario %d ceramica(s).\n", v1, resultado);
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -153,12 +152,12 @@ printf("\nPara alicerçar %d M² de um comodo sera necessario %d caixas de ceram
 
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
-//printf("\n"); // pula linha
+// printf("\n"); // pula linha
 printf("\nTeclar enter para retornar ao menu...\n");
 getchar();
 scanf("c\n");
 system("clear");      // linux limpar tela
-system("tput reset"); // linux limpar
+system("tput reset"); // linux limpar texto
 return; 
 }
 
@@ -189,7 +188,7 @@ int menu_developer(){
   printf("\n Data Release: 07/11/2023 ");
   printf("\n Versao Codigo: 2.0.1v");
   printf("\n Replit: @PHNO, @PHREPLIT");
-  printf("\n Email: phreplit@gmail.com \n");
+  printf("\n E-mail: phreplit@gmail.com \n");
   printf("\n Teclar enter para retornar ao menu...\n ");
   getchar();
   scanf("c\n");
