@@ -178,7 +178,6 @@ getchar();
 scanf("c\n");
 system("clear");      // linux
 system("tput reset"); // linux
-
 return;
 }
 
@@ -196,5 +195,5 @@ int menu_developer(){
   scanf("c\n");
   system("clear");      // linux
   system("tput reset"); // linux
-    return 0;
+  return 0;
 }
