@@ -83,7 +83,7 @@ switch (choice) {
         clear();
         break;
   case 4:
-    System.out.println("\n Algoritmo Finalizado!  ");
+    System.out.println("\n Algoritmo Finalizado! ");
   break loop;
   case 8:
   clear();
@@ -101,7 +101,7 @@ switch (choice) {
   System.out.println("");
   System.out.println("Informacao Importante: ");
   System.out.println("");
-  System.out.println("Este algoritmo foi desenvolvido com variaveis inteiras entao nao aceita numeros com virgula ex: 2,90 metros mude para 3 metros.");
+  System.out.println("Algoritmo desenvolvido com variaveis inteiras, nao permite numero e virgula - ex: 2,90 metros mude para 3 metros.");
   System.out.println("");
   Scanner scanner7 = new Scanner(System.in);
   System.out.println("\nTeclar enter para retornar ao menu...\n");
